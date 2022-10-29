@@ -24,7 +24,13 @@ window.onload = function() {
     "🤴"
   ];
 
-  let pinta = Math.floor(Math.random() * 4);
-  let nu = Math.floor(Math.random() * 13);
-  console.log(palo[pinta] + "" + numero[nu]);
+  let pinta = Math.floor(Math.random() * palo.length);
+  let nu = Math.floor(Math.random() * numero.length);
+  console.log(palo[pinta] + " " + numero[nu]);
+
+  let carta = document.getElementsByClassName("palo");
+  carta[0].innerHTML = palo[pinta];
+  carta[1].innerHTML = palo[pinta];
+
+  document.querySelector(".num").innerHTML = numero[nu];
 };

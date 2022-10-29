@@ -3,3 +3,16 @@
 body {
   background-color: green;
 }
+
+.card {
+  width: 600px;
+  height: 800px;
+}
+.spade {
+}
+.club {
+}
+.heart {
+}
+.diamond {
+}
