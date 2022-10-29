@@ -7,5 +7,24 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  let palo = ["♣", "♠", "♥", "♦"];
+  let numero = [
+    "A",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "🃏",
+    "👸",
+    "🤴"
+  ];
+
+  let pinta = Math.floor(Math.random() * 4);
+  let nu = Math.floor(Math.random() * 13);
+  console.log(palo[pinta] + "" + numero[nu]);
 };
